@@ -1,22 +1,11 @@
+import axios from "axios"
 const Card = (article) => {
-  // TASK 5
-  // ---------------------
-  // Implement this function, which should return the markup you see below.
-  // It takes as its only argument an "article" object with `headline`, `authorPhoto` and `authorName` properties.
-  // The tags used, the hierarchy of elements and their attributes must match the provided markup exactly!
-  // The text inside elements will be set using their `textContent` property (NOT `innerText`).
-  // Add a listener for click events so that when a user clicks on a card, the headline of the article is logged to the console.
-  //
-  // <div class="card">
-  //   <div class="headline">{ headline }</div>
-  //   <div class="author">
-  //     <div class="img-container">
-  //       <img src={ authorPhoto }>
-  //     </div>
-  //     <span>By { authorName }</span>
-  //   </div>
-  // </div>
-  //
+const cardDiv = document.createElement('div')
+const headlineDiv = document.createElement('div')
+const authorDiv = document.createElement('div')
+const containerDiv = document.createElement('div')
+const image = document.createElement('div')
+const spanTag = document.createElement('span')
 }
 
 const cardAppender = (selector) => {
